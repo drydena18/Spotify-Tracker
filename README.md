@@ -36,7 +36,7 @@ spotipy_tracker/
 ### 1. Create a Spotify Developer App
 
 1. Go to [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard) and create a new app
-2. Set the **Redirect URI** to `http://localhost:8888/callback`
+2. Set the **Redirect URI** to `https://127.0.0.1/callback`
 3. Copy your **Client ID** and **Client Secret**
 
 ### 2. Configure your `.env`
@@ -46,7 +46,7 @@ Create a `.env` in the project root:
 ```env
 SPOTIPY_CLIENT_ID = your_client_id_here
 SPOTIPY_CLIENT_SECRET = your_client_secret_here
-SPOTIPY_REDIRECT_URI = http://localhost:8888/callback
+SPOTIPY_REDIRECT_URI = https://127.0.0.1/callback
 ```
 
 ### 3. Create a virtual environment and install dependencies
