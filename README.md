@@ -1,4 +1,4 @@
-# spotipy_tracker
+# Spotify-Tracker
 
 A personal Spotify listening tracker that polls your recent plays every 30 minutes, stores them in a local SQLite database, and serves a dashboard UI for browsing your history.
 
